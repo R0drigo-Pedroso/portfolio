@@ -1,5 +1,16 @@
+import React from "react";
+
+import Container from "@mui/material/Container";
+import Home from "./Components/Home/Home";
+
 const App = () => {
-  return <h1>teste</h1>;
+  return (
+    <React.Fragment>
+      <Container maxWidth="lg">
+        <Home />
+      </Container>
+    </React.Fragment>
+  );
 };
 
 export default App;
