@@ -1,4 +1,5 @@
-import * as React from "react";
+import React from "react";
+
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
@@ -9,13 +10,13 @@ const Caixa = () => {
         display: "flex",
         flexWrap: "wrap",
         "& > :not(style)": {
-          m: 1,
-          width: 128,
-          height: 128,
+          m: "auto",
+          width: "100vw",
+          height: "90vh",
         },
       }}
     >
-      <Paper elevation={3} />
+      <Paper />
     </Box>
   );
 };
