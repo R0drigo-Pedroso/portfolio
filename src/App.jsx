@@ -6,8 +6,9 @@ import Home from "./Components/Home/Home";
 const App = () => {
   return (
     <React.Fragment>
-      <Container maxWidth="xl"></Container>
-      <Home />
+      <Container maxWidth="xl">
+        <Home />
+      </Container>
     </React.Fragment>
   );
 };

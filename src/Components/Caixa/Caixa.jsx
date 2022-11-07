@@ -2,6 +2,7 @@ import React from "react";
 
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import Home from "../Home/Home";
 
 const Caixa = () => {
   return (
@@ -16,7 +17,7 @@ const Caixa = () => {
         },
       }}
     >
-      <Paper />
+      <Home elevation={3} />
     </Box>
   );
 };
