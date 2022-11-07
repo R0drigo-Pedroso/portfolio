@@ -13,5 +13,6 @@ code {
 }
 
 div {
+  background-color: green;
   height: 100vh;
 }
