@@ -24,9 +24,7 @@ const App = () => {
           }}
         >
           <Paper elevation={3}>
-            <Home>
-              <h2>Teste</h2>
-            </Home>
+            <Home />
           </Paper>
         </Box>
       </Container>
