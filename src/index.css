@@ -19,7 +19,11 @@ code {
 }
 
 div {
-  background-color: green;
+  /* background-color: green; */
   height: 100vh;
+
+  background-color: #e5e5f7;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #CBF7ED 0, #CBF7ED 1px, #e5e5f7 0, #e5e5f7 50%);
 }
 
