@@ -9,8 +9,7 @@
 .boxTexto {
     width: 85%;
     margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
     aside h1 {
@@ -61,6 +60,6 @@
 }
 
 img {
-    margin-top: 8%;
+    /* margin-top: 8%; */
     width: 100%;
 }
