@@ -7,8 +7,10 @@
 }
 
 .boxTexto {
-    width: 70%;
+    width: 85%;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
     aside h1 {

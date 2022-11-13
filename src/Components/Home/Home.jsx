@@ -8,7 +8,7 @@ import { Grid, Button } from "@mui/material";
 const Home = () => {
   return (
     <Grid container spacing={2}>
-      <Grid className={estilos.textoNome} item xs={12} sm={6}>
+      <Grid className={estilos.textoNome} item xs={12} md={6} sm={12}>
         <article className={estilos.boxTexto}>
           <aside>
             <h2>Olá, Me Chamo </h2>
@@ -29,7 +29,7 @@ const Home = () => {
           </Button>
         </article>
       </Grid>
-      <Grid className={estilos.textoImg} item xs={12} sm={6}>
+      <Grid className={estilos.textoImg} item xs={12} md={6} sm={12}>
         <img src={fotoPerfil} alt="foto de perfil" />
       </Grid>
     </Grid>

@@ -17,7 +17,6 @@ const App = () => {
             "& > :not(style)": {
               my: 5,
               width: "100vw",
-              height: "90%",
             },
           }}
         >
