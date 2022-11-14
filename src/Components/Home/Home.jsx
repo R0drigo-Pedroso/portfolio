@@ -7,7 +7,7 @@ import { Grid, Button } from "@mui/material";
 
 const Home = () => {
   return (
-    <Grid container spacing={2}>
+    <Grid className={estilos.teste} container spacing={2}>
       <Grid className={estilos.textoNome} item xs={12} md={6} sm={12}>
         <article className={estilos.boxTexto}>
           <section>

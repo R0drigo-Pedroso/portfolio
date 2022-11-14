@@ -15,8 +15,7 @@ const App = () => {
             display: "flex",
             flexWrap: "wrap",
             "& > :not(style)": {
-              my: 5,
-              width: "100vw",
+              my: 15,
             },
           }}
         >
