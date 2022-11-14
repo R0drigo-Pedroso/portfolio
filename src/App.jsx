@@ -5,6 +5,7 @@ import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
 
 import Home from "./Components/Home/Home";
+import Sobre from "./Components/Sobre/Sobre";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         >
           <Paper elevation={3}>
             <Home />
+            <Sobre />
           </Paper>
         </Box>
       </Container>

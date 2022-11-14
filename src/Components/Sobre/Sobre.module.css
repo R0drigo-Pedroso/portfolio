@@ -1,0 +1,21 @@
+.fotoPerfil {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: #DEFFF7;
+}
+
+.fotoPerfil img {
+    width: 15rem;
+}
+
+.colorMenu{
+    margin: auto;
+}
+
+.centralizarTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
