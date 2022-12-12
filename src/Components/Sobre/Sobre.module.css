@@ -6,7 +6,7 @@
 }
 
 .fotoPerfil img {
-    width: 15rem;
+    width: 100%;
 }
 
 .colorMenu{
@@ -14,8 +14,13 @@
 }
 
 .centralizarTexto {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+.centralizarTexto p {
+    margin: 16px;
+    line-height: 28px ;
 }
