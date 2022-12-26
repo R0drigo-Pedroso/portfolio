@@ -33,21 +33,18 @@
         width: 190px;
         height: 50px;
         border-radius: 5px;
-        background-color: #186999;
-        box-shadow: -2px 3px 5px #186999;
+        background-color: #2E81B3 !important;
     }
 
     .CTA:hover {
-        background-color: #2E81B3;
-        box-shadow: -3px 3px 5px 2px #186999;
+        background-color: #186999 !important; 
+        box-shadow: -1px 1px 1px 2px #186999 !important;
     }
 
     .textoSobre {
         font-size: 19px;
         margin: 2rem 0;
     }
-
-
 
 .textoImg {
     display: flex;

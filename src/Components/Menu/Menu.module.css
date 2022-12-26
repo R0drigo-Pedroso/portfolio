@@ -8,20 +8,19 @@
     background-color: #2E81B3;
 }
 
-.menu li {
+.menu a {
     list-style: none;
     width: 100%;
     line-height: 5rem;
     text-align: center;
 }
 
-.menu li:hover {
+.menu a:hover {
     background: #186999;
 }
 
 .menu a {
     color: #DEFFF7;
-    padding: 3rem;
     text-decoration: none;
     text-transform: uppercase;
 }

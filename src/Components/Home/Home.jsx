@@ -4,6 +4,7 @@ import estilos from "./Home.module.css";
 
 import fotoPerfil from "../../Assets/image/imgem_3d_sentada_min.png";
 import { Grid, Button } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -25,9 +26,13 @@ const Home = () => {
               ullam quae cum harum doloremque perferendis.
             </aside>
 
-            <Button className={estilos.CTA} variant="contained">
-              mais sobre mim
-            </Button>
+            <nav>
+              <NavLink exact activeClassName={estilos.ativo} to="/sobre">
+                <Button className={estilos.CTA} variant="contained">
+                  mais sobre mim
+                </Button>
+              </NavLink>
+            </nav>
           </section>
         </article>
       </Grid>

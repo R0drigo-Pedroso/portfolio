@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -21,8 +22,17 @@ const App = () => {
           }}
         >
           <Paper elevation={3}>
-            <Home />
-            <Sobre />
+            <BrowserRouter>
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
+
+                <Route path="/sobre">
+                  <Sobre />
+                </Route>
+              </Switch>
+            </BrowserRouter>
           </Paper>
         </Box>
       </Container>
