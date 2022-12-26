@@ -27,7 +27,7 @@ const Home = () => {
             </aside>
 
             <nav>
-              <NavLink exact activeClassName={estilos.ativo} to="/sobre">
+              <NavLink exact to="/sobre">
                 <Button className={estilos.CTA} variant="contained">
                   mais sobre mim
                 </Button>
