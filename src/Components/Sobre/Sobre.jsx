@@ -23,26 +23,31 @@ const Sobre = () => {
       <Grid className={estilos.centralizarTexto} item xs={6} sm={6} md={9}>
         <section>
           <h1>Sobre Mim</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolor
-            suscipit sapiente nam molestiae voluptates ex exercitationem minus
-            neque veritatis iusto aliquam fugiat cupiditate ut cum magnam
-            nesciunt, quo architecto illum obcaecati corporis. Asperiores
-            dolores error explicabo est hic velit quia quae nulla consequatur,
-            reprehenderit sapiente adipisci fugit! Assumenda veritatis nostrum
-            illo quam facilis est dolorum quaerat a, veniam tempora non impedit
-            blanditiis quisquam ipsam totam. Esse veniam et tempora quam
-            blanditiis sunt porro minima voluptas, ut voluptatem placeat modi
-            similique perferendis dolorum fuga dolorem hic facilis quae natus
-            sint iste in assumenda magni laudantium! Beatae enim fugit quidem
-            ea? Sed nobis aspernatur quas qui assumenda nesciunt possimus
-            perspiciatis sint harum. Illum eaque, laudantium quae quasi hic
-            nihil, sunt sequi nemo repudiandae rem veritatis aspernatur
-            accusantium. Dignissimos facere rerum dolorem amet nisi
-            necessitatibus dolor, cum asperiores omnis fugiat totam molestias
-            illo soluta, aspernatur voluptates excepturi laborum. Enim quasi
-            dolorum cupiditate?
-          </p>
+          <section className={estilos.texteConteudo}>
+            <h2>
+              Eu sou <span>Rodrigo Pedroso</span>, Desenvolvedor Front-end{" "}
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              dolor suscipit sapiente nam molestiae voluptates ex exercitationem
+              minus neque veritatis iusto aliquam fugiat cupiditate ut cum
+              magnam nesciunt, quo architecto illum obcaecati corporis.
+              Asperiores dolores error explicabo est hic velit quia quae nulla
+              consequatur, reprehenderit sapiente adipisci fugit! Assumenda
+              veritatis nostrum illo quam facilis est dolorum quaerat a, veniam
+              tempora non impedit blanditiis quisquam ipsam totam. Esse veniam
+              et tempora quam blanditiis sunt porro minima voluptas, ut
+              voluptatem placeat modi similique perferendis dolorum fuga dolorem
+              hic facilis quae natus sint iste in assumenda magni laudantium!
+              Beatae enim fugit quidem ea? Sed nobis aspernatur quas qui
+              assumenda nesciunt possimus perspiciatis sint harum. Illum eaque,
+              laudantium quae quasi hic nihil, sunt sequi nemo repudiandae rem
+              veritatis aspernatur accusantium. Dignissimos facere rerum dolorem
+              amet nisi necessitatibus dolor, cum asperiores omnis fugiat totam
+              molestias illo soluta, aspernatur voluptates excepturi laborum.
+              Enim quasi dolorum cupiditate?
+            </p>
+          </section>
         </section>
       </Grid>
     </Grid>
